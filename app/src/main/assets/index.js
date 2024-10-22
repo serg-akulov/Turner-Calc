@@ -97,13 +97,15 @@ function addDollar() {
   : num14 >=11&& num14 <= 12 ? 1.2
   : 1
 
-
+// % Наценки
+  let num15 = document.getElementById("num15").value
 
 
 
 
   let result = (sum1 + sum2 + sum3 + sum4 + sum5 + sum6 + sum7 + sum8 + sum9 + sum10 + sum11 + sum12 + sum13) * dollar * sum14
-  document.getElementById("priceDollar").innerText = '± ' + parseInt(result.toFixed(2)) + ' ₽'
+  let resultfin = result + (result * num15) / 100
+  document.getElementById("priceDollar").innerText = '± ' + parseInt(resultfin.toFixed(2)) + ' ₽'
 }
 
 //console.log(parseInt(dollar))
