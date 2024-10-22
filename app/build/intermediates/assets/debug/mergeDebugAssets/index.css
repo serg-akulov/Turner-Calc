@@ -1,0 +1,57 @@
+body{
+  background-image: url(333.jpg);
+  background-size: cover;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+}
+h2 {
+  margin: 30px auto 10px auto;
+  text-align:center;
+  text-decoration: underline;
+  font-style: normal;
+}
+p a{
+  color: beige;
+}
+.main{
+  max-width: 400px;
+  margin: 0 auto;
+  font-style: italic;
+  padding-left: 0;
+  /*border-style: dotted;
+   *   border-color: black;*/
+}
+.main h1{
+  text-align: center;
+}
+
+.main input{
+  margin-bottom: 10px;
+  width: 100%;
+  height: 30px;
+}
+
+.main button {
+  color: #464649;
+  margin: 20px auto 30px;
+  padding: 10px 50px;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #37ff01;
+  border-radius: 10px;
+}
+
+.main button:hover{
+  color: rgb(40, 3, 139);
+  cursor: pointer;
+}
+
+div#priceDollar{
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+.intro{
+    font-style:normal;
+}

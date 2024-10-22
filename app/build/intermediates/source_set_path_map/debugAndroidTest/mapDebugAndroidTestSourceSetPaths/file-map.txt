@@ -1,0 +1,5 @@
+com.example.turner_calc.test.app-core-1.6.1-0 C:\Users\Serg\.gradle\caches\transforms-4\b8fe4d1a950bfaa65fd41ddf31cfdc13\transformed\core-1.6.1\res
+com.example.turner_calc.test.app-androidTest-1 C:\Users\Serg\Turner-Calc\app\build\generated\res\resValues\androidTest\debug
+com.example.turner_calc.test.app-mergeDebugAndroidTestResources-2 C:\Users\Serg\Turner-Calc\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.turner_calc.test.app-mergeDebugAndroidTestResources-3 C:\Users\Serg\Turner-Calc\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.turner_calc.test.app-debugAndroidTest-4 C:\Users\Serg\Turner-Calc\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources
