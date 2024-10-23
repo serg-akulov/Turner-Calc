@@ -30,9 +30,54 @@ function addDollar() {
   : 0
 
   // Снятие фаски
-  let num5 = document.getElementById("num5").value
-  let sum5 = num5 >=1 ? num5 * 0.2
-  : 0
+  //let num5 = document.getElementById("num5").value
+  //let sum5 = num5 >=1 ? num5 * 0.2
+  //: 0
+
+  // чекбокс фаска
+    let check4 = document.getElementById('check4')
+      if (check4.checked) {
+          check4 = 0.3
+        } else {
+          check4 = 0
+        }
+    let sum5 = check4
+
+  // чекбокс Накатка
+    let check5 = document.getElementById('check5')
+      if (check5.checked) {
+          check5 = 0.999999
+        } else {
+          check5 = 0
+        }
+    let sum16 = check5
+
+  // Радиальное отверстие
+    let check6 = document.getElementById('check6')
+      if (check6.checked) {
+          check6 = 0.655555
+        } else {
+          check6 = 0
+        }
+    let sum17 = check6
+
+  // Фрезерование 4, 6-гранника
+    let check7 = document.getElementById('check7')
+      if (check7.checked) {
+          check7 = 1.899999
+        } else {
+          check7 = 0
+        }
+    let sum18 = check7
+
+  // Лыска
+    let check8 = document.getElementById('check8')
+      if (check8.checked) {
+          check8 = 0.899999
+        } else {
+          check8 = 0
+        }
+    let sum19 = check8
 
   // Сверловка расточка
   let num6 = document.getElementById("num6").value
@@ -59,10 +104,25 @@ function addDollar() {
   : num8 >=1 && num8 >= 31 ? 1.999999
   : 0
 
-  // пазы и канавки
-  let num9 = document.getElementById("num9").value
-  let sum9 = num9 >=1 ? num9 * 0.5
-  : 0
+  // чекбокс 1 канавка
+  let check2 = document.getElementById('check2')
+    if (check2.checked) {
+        check2 = 0.5
+      } else {
+        check2 = 0
+      }
+  let sum9 = check2
+
+  // чекбокс несколько канавок
+    let check3 = document.getElementById('check3')
+      if (check3.checked) {
+          check3 = 1.1
+        } else {
+          check3 = 0
+        }
+    let sum15 = check3
+
+
 
   // Шпонпаз
   let num10 = document.getElementById("num10").value
@@ -84,10 +144,14 @@ function addDollar() {
   let num12 = document.getElementById("num12").value
   let sum12 = num12 * 0.999999
 
-  // конус внутренний наружный
-  let num13 = document.getElementById("num13").value
-  let sum13 = num13 >=1 ? num13 * 0.999999
-  : 0
+  // чекбокс конус
+  let check1 = document.getElementById('check1')
+    if (check1.checked) {
+        check1 = 1.5
+      } else {
+        check1 = 0
+      }
+  let sum13 = check1
 
   // квалитет
   let num14 = document.getElementById("num14").value
@@ -103,10 +167,15 @@ function addDollar() {
 
 
 
-  let result = (sum1 + sum2 + sum3 + sum4 + sum5 + sum6 + sum7 + sum8 + sum9 + sum10 + sum11 + sum12 + sum13) * dollar * sum14
+  let result = (sum1 + sum2 + sum3 + sum4 + sum5 + sum6 + sum7 + sum8 + sum9 +
+  sum10 + sum11 + sum12 + sum13 + sum15 + sum16 + sum17 + sum18 + sum19)
+  * dollar
+  * sum14
+
   let resultfin = result + (result * num15) / 100
   document.getElementById("priceDollar").innerText = '± ' + parseInt(resultfin.toFixed(2)) + ' ₽'
 }
+
 
 
 

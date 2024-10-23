@@ -13,10 +13,10 @@
 
     <h2>Базовые значения</h2>
     <label>Курс доллара:</label><br>
-    <label for="dollar"></label><input type="number" id="dollar" placeholder="1$ = ? (только цифра)"><br>
+    <input type="number" id="dollar" placeholder="1$ = ? (только цифра)"><br>
 
     <label>Диаметр заготовки:</label><br>
-    <label for="num1"></label><input type="number" id="num1" placeholder="Ø в mm."><br>
+    <input type="number" id="num1" placeholder="Ø в mm."><br>
 
     <label>Длина детали:</label><br>
     <input type="number" id="num2" placeholder="L mm."><br>
@@ -27,19 +27,12 @@
     <label>Съем металла мм.:</label><br>
     <input type="number" id="num3" placeholder="Общий слой снятого металла mm."><br>
 
-    <label>Подрезка торца (единицы):</label><br>
-    <input type="number" id="num4" placeholder="Сколько торцев подрезать ед."><br>
-
-    <label>Снятие фаски (единицы):</label><br>
-    <input type="number" id="num5" placeholder="Сколько фасок ед."><br>
-
-
+    <label>Проточка торца (единицы):</label><br>
+    <input type="number" id="num4" placeholder="Сколько торцев проточить ед."><br>
 
     <h2>Расточка отверстий</h2>
     <label>Сверлить\Расточить мм.:</label><br>
     <input type="number" id="num6" placeholder="Ø в mm."><br>
-
-
 
     <h2>Нарезка резьбы</h2>
     <label>Наружная резьба мм.:</label><br>
@@ -48,35 +41,42 @@
     <label>Внутренняя резьба мм.:</label><br>
     <input type="number" id="num7" placeholder="Ø в mm."><br>
 
+    <br>
 
-    <h2>Конус</h2>
-    <label>Конус внутренний\ наружный ед.:</label><br>
-    <input type="number" id="num13" placeholder="Сколько конусов ед."><br>
+    <label><input type="checkbox" class="box" id="check1" value=""/>
+        <span> Конус внутренний\наружный</span></label>
+
+    <label><input type="checkbox" class="box" id="check2" value=""/>
+        <span> Сделать канавку</span></label>
+
+    <label><input type="checkbox" class="box" id="check3" value=""/>
+        <span> Сделать несколько канавок</span></label>
+
+    <label><input type="checkbox" class="box" id="check4" value=""/>
+        <span>Фаска</span></label>
+
+    <label><input type="checkbox" class="box" id="check5" value=""/>
+        <span>Накатка</span></label>
+
+    <label><input type="checkbox" class="box" id="check6" value=""/>
+        <span>Радиальное отверстие</span></label>
+
+    <label><input type="checkbox" class="box" id="check7" value=""/>
+        <span>Фрезерование 4,6-гранника</span></label>
+
+    <label><input type="checkbox" class="box" id="check8" value=""/>
+        <span>Лыска</span></label><br><br>
 
 
-    <h2>Пазы и канавки</h2>
-    <label>Наружные\Внутренние канавки (единицы):</label><br>
-    <input type="number" id="num9" placeholder="Сколько канавок ед."><br>
-
-
-    <h2>Шпоночные пазы</h2>
-    <label>Размер шпонпаза мм.:</label><br>
+    <label>Сделать шпонпаз Н мм.:</label><br>
     <input type="number" id="num10" placeholder="Высота шпонпаза H mm."><br>
 
-
-
-    <h2>Отрезка</h2>
-    <label>Отрезка детали мм.:</label><br>
+    <label>Отрезать деталь мм.:</label><br>
     <input type="number" id="num11" placeholder="Ø в mm."><br>
 
-
-
-    <h2>Квалитет</h2>
     <label>Самый точный квалитет:</label><br>
     <input type="number" id="num14" placeholder="--Указать--"><br>
 
-
-    <h2>Стоимость металла</h2>
     <label>Стоимость материала $:</label><br>
     <input type="number" id="num12" placeholder="Цена заготовки в долларах"><br>
 
