@@ -1,4 +1,4 @@
-#Tue Oct 22 15:31:11 GMT+07:00 2024
+#Wed Oct 23 12:05:57 GMT+07:00 2024
 base.0=C\:\\Users\\Serg\\Turner-Calc\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeExtDexDebugAndroidTest\\classes.dex
 base.1=C\:\\Users\\Serg\\Turner-Calc\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\0\\classes.dex
 base.2=C\:\\Users\\Serg\\Turner-Calc\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\2\\classes.dex
