@@ -81,7 +81,7 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Se
 	android:supportsRtl
 		ADDED from C:\Users\Serg\Turner-Calc\app\src\main\AndroidManifest.xml:12:9-35
 	android:label
-		ADDED from C:\Users\Serg\Turner-Calc\app\src\main\AndroidManifest.xml:10:9-41
+		ADDED from C:\Users\Serg\Turner-Calc\app\src\main\AndroidManifest.xml:10:9-45
 	android:fullBackupContent
 		ADDED from C:\Users\Serg\Turner-Calc\app\src\main\AndroidManifest.xml:8:9-54
 	android:roundIcon
