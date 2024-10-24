@@ -155,11 +155,11 @@ function addDollar() {
 
   // квалитет
   let num14 = document.getElementById("num14").value
-  let sum14 = num14 >=1 && num14 <= 6 ? 2
+  let sum14 = parseFloat (num14 >=1 && num14 <= 6 ? 2
   : num14 >=7 && num14 <= 8 ? 1.5
   : num14 >=9 && num14 <= 10 ? 1.3
   : num14 >=11&& num14 <= 12 ? 1.2
-  : 1
+  : 1)
 
 // % Наценки
   let num15 = document.getElementById("num15").value
@@ -167,13 +167,19 @@ function addDollar() {
 
 
 
-  let result = (sum1 + sum2 + sum3 + sum4 + sum5 + sum6 + sum7 + sum8 + sum9 +
+  let result = parseFloat((sum1 + sum2 + sum3 + sum4 + sum5 + sum6 + sum7 + sum8 + sum9 +
   sum10 + sum11 + sum12 + sum13 + sum15 + sum16 + sum17 + sum18 + sum19)
   * dollar
-  * sum14
+  * sum14)
 
   let resultfin = result + (result * num15) / 100
-  document.getElementById("priceDollar").innerText = '± ' + parseInt(resultfin.toFixed(2)) + ' ₽'
+  let time = parseFloat(resultfin / 850)
+
+  document.getElementById("priceDollar").innerText = 'Цена: '
+  + parseFloat(resultfin.toFixed(2)) + ' ₽'
+  +  '\n Время: '
+  + parseFloat(time.toFixed(1))
+  + ' ч.'
 }
 
 
