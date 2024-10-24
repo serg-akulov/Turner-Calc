@@ -173,7 +173,7 @@ function addDollar() {
   * sum14)
 
   let resultfin = result + (result * num15) / 100
-  let time = parseFloat(resultfin / 800)
+  let time = parseFloat(resultfin / 850)
 
   document.getElementById("priceDollar").innerText = 'Цена: '
   + parseFloat(resultfin.toFixed(2)) + ' ₽'
