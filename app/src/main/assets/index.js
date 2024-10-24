@@ -79,6 +79,15 @@ function addDollar() {
         }
     let sum19 = check8
 
+  // Нержавейка, титан
+    let check9 = document.getElementById('check9')
+      if (check9.checked) {
+          check9 = 2.1
+        } else {
+          check9 = 0
+        }
+    let sum20 = check9
+
   // Сверловка расточка
   let num6 = document.getElementById("num6").value
   let sum6 = num6 >=1 && num6 <= 10 ? 0.5
@@ -168,7 +177,7 @@ function addDollar() {
 
 
   let result = parseFloat((sum1 + sum2 + sum3 + sum4 + sum5 + sum6 + sum7 + sum8 + sum9 +
-  sum10 + sum11 + sum12 + sum13 + sum15 + sum16 + sum17 + sum18 + sum19)
+  sum10 + sum11 + sum12 + sum13 + sum15 + sum16 + sum17 + sum18 + sum19 + sum20)
   * dollar
   * sum14)
 
